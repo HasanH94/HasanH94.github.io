@@ -30,13 +30,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Course materials, schedules, and resources for classes taught.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -416,51 +409,51 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-autonomous-racing-at-the-limits-of-handling",
+          title: 'Autonomous Racing at the Limits of Handling',
+          description: "Team project for the NXP Cup — a motion controller for a small-scale autonomous race car that compensates for the nonlinear tire dynamics that emerge near the friction limit.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/autonomous-racing/";
+            },},{id: "projects-context-aware-autonomous-navigation",
+          title: 'Context-Aware Autonomous Navigation',
+          description: "Final-year project — a self-driving perception and planning stack designed for unstructured urban traffic. Winner of the Dean&#39;s Creative Achievement Award.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/context-aware-navigation/";
+            },},{id: "projects-modeling-customer-purchase-behavior-as-a-markov-chain",
+          title: 'Modeling Customer Purchase Behavior as a Markov Chain',
+          description: "A solo project using an absorbing Markov chain to find the highest-leverage step in a real e-commerce funnel.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/customer-purchase/";
+            },},{id: "projects-geometry-aware-generative-modeling-for-ood-detection",
+          title: 'Geometry-Aware Generative Modeling for OOD Detection',
+          description: "A solo research project on using spherical (von Mises–Fisher) variational autoencoders to detect out-of-distribution inputs for foundation-model embeddings.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/projects/geometry-aware-vae/";
+            },},{id: "projects-physics-based-and-data-driven-heat-sink-design",
+          title: 'Physics-Based and Data-Driven Heat-Sink Design',
+          description: "Team project combining classical heat-transfer optimization with a neural-network surrogate to design a finned aluminum heat sink under a pressure-drop constraint.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+              window.location.href = "/projects/heat-exchanger/";
+            },},{id: "projects-higgs-boson-signal-classification",
+          title: 'Higgs-Boson Signal Classification',
+          description: "Team project using the HIGGS kinematic dataset to separate real signal events from background — with 20+ model architectures benchmarked head-to-head.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+              window.location.href = "/projects/higgs-classification/";
+            },},{id: "projects-autonomous-drone-for-forest-parasite-treatment",
+          title: 'Autonomous Drone for Forest-Parasite Treatment',
+          description: "Research assistant on a multirotor UAV that precision-injects a biopesticide into pine-parasite nests.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
+              window.location.href = "/projects/ppm-drone/";
+            },},{id: "projects-networked-epidemic-model-with-vaccination-sirsv",
+          title: 'Networked Epidemic Model with Vaccination (SIRSV)',
+          description: "Co-authored research extending the classical SIRS epidemic model to a networked process that accounts for both permanent and temporary immunity, validated on Lebanese COVID-19 data.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
+              window.location.href = "/projects/sirsv-network/";
+            },},{id: "projects-stochastic-modeling-of-highway-traffic-flow",
+          title: 'Stochastic Modeling of Highway Traffic Flow',
+          description: "A solo project fitting homogeneous and non-homogeneous Poisson processes to real toll-highway data to test whether a memoryless model can explain vehicle arrivals.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/stochastic-traffic/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
