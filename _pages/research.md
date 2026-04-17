@@ -1,26 +1,26 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: Coursework and competition projects I built at AUB — from autonomous racing to generative modeling.
+title: research
+permalink: /research/
+description: Research projects I have worked on as a research assistant at the American University of Beirut.
 nav: true
-nav_order: 3
+nav_order: 2
 horizontal: false
 ---
 
 <div class="projects">
-  {% assign project_items = site.projects | where: "category", "projects" | sort: "importance" %}
+  {% assign research_items = site.projects | where: "category", "research" | sort: "importance" %}
   {% if page.horizontal %}
     <div class="container">
       <div class="row row-cols-1 row-cols-md-2">
-      {% for project in project_items %}
+      {% for project in research_items %}
         {% include projects_horizontal.liquid %}
       {% endfor %}
       </div>
     </div>
   {% else %}
     <div class="row row-cols-1 row-cols-md-3">
-      {% for project in project_items %}
+      {% for project in research_items %}
         {% include projects.liquid %}
       {% endfor %}
     </div>
