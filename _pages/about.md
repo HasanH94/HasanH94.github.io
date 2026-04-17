@@ -2,33 +2,34 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <strong>BE Mechanical Engineering · BS Applied Mathematics</strong> — American University of Beirut
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Beirut, Lebanon</p>
+    <p><a href="mailto:hmh94@mail.aub.edu">hmh94@mail.aub.edu</a></p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false # set to true later once we add papers
+social: true # shows social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
+  scrollable: true
+  limit: 5
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+  scrollable: true
+  limit: 3
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a final-year student at the **American University of Beirut**, pursuing dual degrees: a **Bachelor of Engineering in Mechanical Engineering** (Robotics & Control) and a **Bachelor of Science in Applied Mathematics**. I hold a 4.0/4.0 GPA and have made the Dean's Honor List every semester since enrollment.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My work sits at the intersection of **robotics, machine learning, and control theory**. On the applied side, that has meant engineering the perception and planning stack for a context-aware autonomous ground vehicle — my final-year project, which received the Dean's Creative Achievement Award — and developing a collision-safe planner for a multirotor drone designed to treat forest parasites. On the theoretical side, it has meant co-authoring research on networked epidemic models, modeling online-customer behavior as Markov processes, and fitting real-world traffic flow with non-homogeneous Poisson processes.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am a recipient of the **USAID Higher Education Scholarship** and the **Education Above All / Qatar Scholarship**. Outside of coursework, I volunteer with AUB's Center for Civic Engagement and Community Service — including the Beirut Port Blast home-rebuilding effort — have led teams at AUB's ASME chapter, and consulted for NGOs in Malaysia and the Netherlands through **180 Degrees Consulting**.
+
+I expect to graduate in 2026 with **High Distinction** in both Mathematics and Engineering.
