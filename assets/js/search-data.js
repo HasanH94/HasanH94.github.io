@@ -9,19 +9,19 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-projects",
+  },{id: "nav-research",
+          title: "research",
+          description: "Research projects I have worked on as a research assistant at the American University of Beirut.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/research/";
+          },
+        },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of research and coursework I&#39;ve worked on at AUB.",
+          description: "Coursework and competition projects I built at AUB — from autonomous racing to generative modeling.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
-          },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "A one-page summary of my education, experience, research, and projects.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
           },
         },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
         
@@ -125,13 +125,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/hassan-hammoud-42a475229", "_blank");
-        },
-      },{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/assets/pdf/hassan_hammoud_cv.pdf", "_blank");
         },
       },{
         id: 'social-rss',
