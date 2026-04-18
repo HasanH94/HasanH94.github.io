@@ -9,40 +9,13 @@ toc:
   sidebar: left
 ---
 
-<div class="text-muted mb-4">
-<em>Listed below are workshops and talks I've been part of during my time at AUB. Each entry is given equal billing regardless of role — I'm more interested in the topic than in whether I was on the giving or receiving side of it.</em>
-</div>
+A running list of workshops and talks I've been part of during my time at AUB. Each entry is listed without a role label — I care more about the topic than whether I was on the delivering or receiving side of it.
 
-<div class="list-group list-group-flush">
+---
 
-  <div class="list-group-item px-0 py-3">
-    <h5 class="mb-1">Public Speaking and Presentation Skills</h5>
-    <small class="text-muted">Workshop</small>
-  </div>
-
-  <div class="list-group-item px-0 py-3">
-    <h5 class="mb-1">Reflective Writing</h5>
-    <small class="text-muted">Workshop</small>
-  </div>
-
-  <div class="list-group-item px-0 py-3">
-    <h5 class="mb-1">Social Media Fundamentals</h5>
-    <small class="text-muted">Workshop</small>
-  </div>
-
-  <div class="list-group-item px-0 py-3">
-    <h5 class="mb-1">Psychological Well-being and Self-Care</h5>
-    <small class="text-muted">Workshop</small>
-  </div>
-
-  <div class="list-group-item px-0 py-3">
-    <h5 class="mb-1">Story Making and Multimedia Techniques</h5>
-    <small class="text-muted">Workshop</small>
-  </div>
-
-  <div class="list-group-item px-0 py-3">
-    <h5 class="mb-1">IT Workshop</h5>
-    <small class="text-muted">Workshop</small>
-  </div>
-
-</div>
+- **Public Speaking and Presentation Skills** — _workshop_
+- **Reflective Writing** — _workshop_
+- **Social Media Fundamentals** — _workshop_
+- **Psychological Well-being and Self-Care** — _workshop_
+- **Story Making and Multimedia Techniques** — _workshop_
+- **IT Workshop** — _workshop_
